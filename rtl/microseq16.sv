@@ -10,7 +10,6 @@ module microseq16 (
     output reg         halted,
     output wire [15:0] debug_r1
 );
-    timeunit 1ns; timeprecision 1ps;
     reg [15:0] regs [0:15];
     wire [3:0] opcode = instr[15:12];
     wire [3:0] rd = instr[11:8];
