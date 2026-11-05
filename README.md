@@ -1,4 +1,4 @@
-# MicroSeq-16
+# 16-bit instruction sequencer
 
 Compact custom 16-bit instruction controller with register file and basic I/O.
 
