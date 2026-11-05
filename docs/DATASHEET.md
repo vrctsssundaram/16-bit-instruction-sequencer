@@ -15,4 +15,4 @@
 
 Ports: `instr_addr[7:0]`, `instr[15:0]`, `io_addr[3:0]`, `io_rdata[15:0]`, `io_wdata[15:0]`, `io_write`, `halted`, `debug_r1`.
 
-No external memory bus protocol or exception-vector ABI is implemented.
+The I/O interface and instruction ROM are directly connected to the custom control ISA.

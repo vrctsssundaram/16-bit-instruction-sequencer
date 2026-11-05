@@ -17,6 +17,6 @@ make synth
 
 Design sources are in `rtl/`, directed tests in `tb/`, and interface, architecture, testing and measured results in `docs/`.
 
-**Scope:** This is a small custom control ISA, not a RISC-V CPU or production interrupt/exception subsystem.
+**Architecture:** Custom 16-bit control sequencer with 16 registers, instruction ROM and I/O control.
 
 Project owner: Sundaram S S.
